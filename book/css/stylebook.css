@@ -10,6 +10,29 @@
 
 font-family: 'Roboto Mono', monospace;
 font-family: 'Montserrat', sans-serif;
+
+
+>>>picture links<<<
+in CSS: 
+body: https://images.unsplash.com/photo-1502154882433-a614dba12819?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d67aad0216786375293c2c6b2c1033fd&w=1000&q=80
+fuji-film: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqDdRv9aAdFip7KeCnK1msV5JlOo2CS4qWgQm9W0BV03rfvllwUA
+quote1-sunset:
+https://images.unsplash.com/photo-1470596914251-afb0b4510279?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d891d3197dceea7e61777ebd80e503c&auto=format&fit=crop&w=500&q=60
+quote2-pink-beach:
+https://images.unsplash.com/photo-1515224310768-d354254c4bd3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ba14e71d71519572b0a0c19506cd67e4&auto=format&fit=crop&w=500&q=60
+quote3-beach-log:
+https://images.unsplash.com/photo-1508580104286-a9b597d6f2a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67b3ff5a8a6f0d6ad2b4a85988cb0699&auto=format&fit=crop&w=500&q=6
+
+in HTML:
+leica camera pink background
+https://images.unsplash.com/photo-1523467417496-ba0608c96a6a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9dabe0c9ffeb09479568215f1aacabf&auto=format&fit=crop&w=500&q=60
+green field pink sky a man taking picture:
+https://images.unsplash.com/photo-1524263472425-37131a0d78eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=491118d59e02070a7167745863cc245a&auto=format&fit=crop&w=500&q=60
+DSLR camera:
+https://images.unsplash.com/photo-1523467448018-9474e076ec6e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=09abac98edbdb3e9b8bfeafbde531272&auto=format&fit=crop&w=500&q=60
+pink polaroid camera:
+https://images.unsplash.com/photo-1496889050590-4db81f7fb62a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c14bd68dfadb77a8fbe59ade674e835&auto=format&fit=crop&w=1050&q=80
+
 */
 
 
@@ -19,7 +42,7 @@ font-family: 'Montserrat', sans-serif;
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(rgba(237, 227, 228, 0.6),rgba(237, 227, 228, 0.6)), url("https://images.unsplash.com/photo-1502154882433-a614dba12819?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d67aad0216786375293c2c6b2c1033fd&w=1000&q=80");
+    background: linear-gradient(rgba(237, 227, 228, 0.6),rgba(237, 227, 228, 0.6)), url("../img/three-pol-pic.jpeg");
 }
 
 h1 {
@@ -95,7 +118,7 @@ blockquote {
 
 .block1 {
 
-   background: linear-gradient(rgba(237, 227, 228, 0.6),rgba(237, 227, 228, 0.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqDdRv9aAdFip7KeCnK1msV5JlOo2CS4qWgQm9W0BV03rfvllwUA");
+   background: linear-gradient(rgba(237, 227, 228, 0.6),rgba(237, 227, 228, 0.6)), url("../img/fuji-film.png");
     flex-basis: 60%;
    
     padding-top: 8rem;
@@ -117,7 +140,7 @@ p:first-child {
 
 
 .picture1 {
-    background: linear-gradient(rgba(237, 227, 228, 0.8),rgba(237, 227, 228, 0.8)), url("https://images.unsplash.com/photo-1470596914251-afb0b4510279?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d891d3197dceea7e61777ebd80e503c&auto=format&fit=crop&w=500&q=60");
+    background: linear-gradient(rgba(237, 227, 228, 0.8),rgba(237, 227, 228, 0.8)), url("../img/quote1-sunset.jpeg");
     padding: 1.5rem 1rem;
     text-align: right; 
     margin-top: 5rem; 
@@ -150,7 +173,7 @@ p:first-child {
 }
 
 .picture2 {
-    background: linear-gradient(rgba(237, 227, 228, 0.8),rgba(237, 227, 228, 0.8)), url("https://images.unsplash.com/photo-1515224310768-d354254c4bd3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ba14e71d71519572b0a0c19506cd67e4&auto=format&fit=crop&w=500&q=60");
+    background: linear-gradient(rgba(237, 227, 228, 0.8),rgba(237, 227, 228, 0.8)), url("../img/quote2-pink-beach.jpeg");
     
     padding: 1rem 2rem 1rem 1rem;
     text-align: right;
@@ -158,8 +181,6 @@ p:first-child {
 }
 
 .flex-cont2 img {
-    background:  url("https://cdn.pixabay.com/photo/2013/07/12/13/16/movie-146704_960_720.png");
-
     object-fit: contain;  
     flex-basis: 40%; 
 }
@@ -178,7 +199,7 @@ p:first-child {
 
 
 .block3 {
-    background: linear-gradient(rgba(237, 227, 228, 0.5),rgba(237, 227, 228, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqDdRv9aAdFip7KeCnK1msV5JlOo2CS4qWgQm9W0BV03rfvllwUA"); 
+    background: linear-gradient(rgba(237, 227, 228, 0.5),rgba(237, 227, 228, 0.5)), url("../img/fuji-film.png"); 
 
     background-size: cover; 
     text-align: center; 
@@ -195,7 +216,7 @@ p:first-child {
 
 
 .picture3  {
-    background: linear-gradient(rgba(237, 227, 228, 0.8),rgba(237, 227, 228, 0.8)), url("https://images.unsplash.com/photo-1508580104286-a9b597d6f2a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67b3ff5a8a6f0d6ad2b4a85988cb0699&auto=format&fit=crop&w=500&q=60");
+    background: linear-gradient(rgba(237, 227, 228, 0.8),rgba(237, 227, 228, 0.8)), url("../img/quote3-beach-log.jpeg");
     
     padding: 0 2rem 1rem 2rem;
     display: cover;
